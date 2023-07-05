@@ -2,4 +2,47 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.picture {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:900px;
+}
+
+.long-text {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:800px;
+}
+
+.small-text {
+  font-size: 15px;
+  text-align:center;
+}
+
+.top-link {
+  background:gray;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+h1 {
+  text-align:center;
+}
+
+#details {
+  background:red;
+  display:flex;
+  justify-content:space-between;
+}
+
+div {
+  align-self:auto;
 }
